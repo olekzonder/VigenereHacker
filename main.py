@@ -47,7 +47,6 @@ def vigeneredecrypt(lang,word,key):
 def brute(lang,word):
     import DictionaryHacker
     print("<<Взлом с помощью \"грубого\" перебора словарём>>")
-    word = ''.join(filter(str.isalpha, word))
     print(DictionaryHacker.dictionaryhack(lang, word))
     pause()
 
