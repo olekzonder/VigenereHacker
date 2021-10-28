@@ -18,6 +18,7 @@ def pickword():
         choice = input("Выберите, откуда получить сообщение: из файла (f) или из прямого ввода (w): ")
     if choice == 'w':
         word = str(input("Введите сообщение:"))
+        return word
     else:
         filename = input("Введите название файла с его расширением (например, in.txt):")
         try:
