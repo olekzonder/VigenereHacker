@@ -1,4 +1,6 @@
 import os
+
+
 def pick_dict(lang):
     if lang == "ru":
         dictionary = os.path.join(os.path.dirname(__file__),'russian.txt')
